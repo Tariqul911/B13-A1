@@ -128,3 +128,45 @@ nav a{
     justify-content: center;
     padding-bottom: 100px;
 }
+
+/* card-section */
+.card-section{
+    text-align: center;
+}
+.card-heading{
+    font-size: 48px;
+    font-weight: 800;
+}
+.card-description{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 45px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 0 120px;
+}
+.card{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+.card-icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-icon img{
+    width: 32px;
+    height: 32px;
+}
