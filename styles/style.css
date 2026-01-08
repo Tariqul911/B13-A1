@@ -1,0 +1,41 @@
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Shared style */
+.btn-primary{
+    padding: 10px;
+    background-color: #30B868;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    
+}
+button:hover {
+  background-color: #0a8f08;
+}
+
+
+/* Nav section */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-right-side{
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav-links{
+    display: flex;
+    margin-right: 300px;
+    font-size: 16px;
+    font-weight: 500;
+}
