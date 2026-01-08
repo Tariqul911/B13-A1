@@ -170,3 +170,33 @@ nav a{
     width: 32px;
     height: 32px;
 }
+/* <!-- img section --> */
+.main-img{
+    height: 600px;
+    width: 600px;
+}
+.img-section{
+    display: flex;
+    padding-top: 120px;
+    margin: 0 120px;
+    gap: 60px;
+}
+.img-title{
+    color: #30B868;
+}
+.img-heading{
+    font-size: 48px;
+    font-weight: 700;
+}
+.check-icon{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.img-description{
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
